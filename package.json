@@ -34,7 +34,11 @@
     "@remix-run/node": "^1.19.1",
     "@remix-run/react": "^1.19.1",
     "@roxavn/core": "^0.2.0",
+    "@roxavn/module-utils": "^0.2.0",
+    "@roxavn/plugin-email-sender": "^0.1.0",
+    "@roxavn/plugin-otp": "^0.1.0",
     "@tabler/icons-react": "^2.12.0",
+    "lodash-es": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typeorm": "^0.3.10"
