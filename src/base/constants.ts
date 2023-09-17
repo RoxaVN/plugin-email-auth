@@ -1,4 +1,4 @@
 export const constants = {
-  EMAIL_AUTH_SUBJECT: 'email_auth_subject',
-  EMAIL_AUTH_CONTENT: 'email_auth_content',
+  EMAIL_AUTH_SUBJECT: 'emailAuthSubject',
+  EMAIL_AUTH_CONTENT: 'emailAuthContent',
 };
