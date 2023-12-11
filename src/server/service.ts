@@ -7,10 +7,9 @@ import {
 } from '@roxavn/module-utils/server';
 import { template } from 'lodash-es';
 
-import { serverModule } from './module.js';
 import { constants } from '../base/index.js';
 
-@serverModule.injectable()
+@CreateOtpApiService.useSender(constants.EMAIL_OTP)
 export class SendEmailOtpService extends BaseService {
   constructor(
     @inject(TokenService) protected tokenService: TokenService,
@@ -47,5 +46,3 @@ export class SendEmailOtpService extends BaseService {
     };
   }
 }
-
-CreateOtpApiService.senders['email'] = SendEmailOtpService;
